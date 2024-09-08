@@ -11,7 +11,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    width: 100%;
   }
   
   nav ul {
@@ -37,7 +37,17 @@ nav {
   }
   
   h1 {
-    margin-bottom: 20px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    /*margin: 20px 20px 20px 20px;*/
   }
   
   div {
@@ -47,12 +57,13 @@ nav {
   label {
     display: inline-block;
     width: 100px;
+    color:#ffffff;
   }
   
   input[type="text"],
   input[type="number"],
   select {
-    width: 200px;
+    width: 400px;
     padding: 5px;
   }
   
@@ -62,6 +73,7 @@ nav {
     color: white;
     border: none;
     cursor: pointer;
+    text-align: center;
   }
   
   button:hover {
@@ -69,9 +81,6 @@ nav {
   }
   
   /* Basic CSS for the report section */
-  h2 {
-    margin-top: 30px;
-  }
   
   #report,#result {
     padding: 10px;
@@ -90,3 +99,100 @@ nav {
     width: 200px;
     height: 100px;
   }
+
+h2{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 65px;
+    letter-spacing: -1.6px;
+    word-spacing: 4.8px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin: 20px 20px 20px 20px;
+}
+
+p{
+    color: #ffffff;
+    margin: 12px 12px 12px 20px;
+}
+
+h3{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 52px;
+    letter-spacing: -1.6px;
+    word-spacing: 4.8px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    margin: 20px 20px 20px 20px;
+}
+
+h4{
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    margin: 20px 20px 20px 20px;
+}
+
+#about{
+    width:1000px;
+    margin: 25px 25px 25px 50px;
+    float:left;
+    }
+
+    .about{
+        background: rgba(0,0,0,0.3);
+        margin: 25px 25px 25px 25px;
+    }
+#team{
+        margin: 120px 5px 5px 5px;
+        float:left;
+        width: 95%;
+    }
+
+h3, #member1, #member2, #member3 {
+    float:left; 
+    display:inline; 
+    width: 20%;
+}
+
+#contact, #contactForm {
+    float:left;
+    display:inline;
+    width:45%;
+}
+
+#team{
+    margin-left: 100px;
+}
+
+#member1, #member2, #member3 {
+    background: rgba(0,0,0,0.5); 
+    border-radius: 25px; 
+    margin: 25px 25px 25px 25px;
+}
+
+.role{
+    color: #ffffff; 
+    background-color:#395295; 
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 11px; 
+    border-radius: 10px;
+    height: 30px;
+}
+
+form{
+    background: rgba(0,0,0,0.1);
+    margin: 25px 25px 25px 25px;
+}
