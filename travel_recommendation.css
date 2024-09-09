@@ -145,6 +145,8 @@ h3{
     font-style: normal;
     font-variant: normal;
     margin: 20px 20px 20px 20px;
+    float:left; 
+    display:inline;
 }
 
 h4{
@@ -174,7 +176,7 @@ h4{
         width: 95%;
     }
 
-h3, #member1, #member2, #member3 {
+#member1, #member2, #member3 {
     float:left; 
     display:inline; 
     width: 20%;
@@ -220,8 +222,7 @@ form{
     color: #ffffff;
     float:left;
     display:inline;
-    width: 60%;
-    margin: 25px 25px 25px 50px;
-    
+    width: 50%;
+    margin: 25px 100px 25px 50px;
 }
  
