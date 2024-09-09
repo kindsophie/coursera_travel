@@ -101,20 +101,18 @@ nav {
   
   #report,#result {
     padding: 10px;
-    max-width: 400px;
     word-wrap: break-word;
   }
 #result{
-  height: 400px;
-  width: 500px;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
 }
   #result img{
-    width: 200px;
-    height: 100px;
+    width: 600px;
+    height: 450px;
   }
 
 h2{
@@ -218,6 +216,12 @@ form{
     width: 300px;
 }
 
-.searchRecommendation{
-    color: #ffffff; 
+.mainframe, .searchRecommendation{
+    color: #ffffff;
+    float:left;
+    display:inline;
+    width: 60%;
+    margin: 25px 25px 25px 50px;
+    
 }
+ 
