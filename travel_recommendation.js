@@ -9,13 +9,14 @@
 
         function searchKeyword() {
         const input = document.getElementById('keywordInput').value.toLowerCase();
+        console.log(input);
         const resultDiv = document.getElementById('result');
         resultDiv.innerHTML = '';
 
         fetch('travel_recommendation_api.json')
           .then(response => response.json())
           .then(data => {
-            const recommendation = data.recommendations.find(item => item.name.toLowerCase() === input);
+            const recommendation = data.countries.find(item => item.name.toLowerCase() === input);
 
             if (recommendation) {
               const name = recommendation.name.join(', ');
@@ -37,5 +38,5 @@
           });
       }
     
-      btnSearch.addEventListener('click', searchRecommendation);
+      btnSearch.addEventListener('click', searchKeyword);
       btnReset.addEventListener('click', resetForm);
