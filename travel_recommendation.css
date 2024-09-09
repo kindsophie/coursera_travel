@@ -8,26 +8,39 @@
 nav {
     background-color: #8fb3e9;
     padding: 20px;
-    display: flex;
-    align-items: center;
+    display: flex; /* flex */
+    align-items: normal; /*center*/
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
+    text-align: center;
+    /* height: 70px;*/
   }
   
   nav ul {
     list-style-type: none;
     /* padding: 0; */
+    display: flex;
+    flex-direction: row;
   }
   
   nav ul li {
-    display: inline;
+    /*display: flex;*/
     margin-right: 10px;
+    list-style: none;
+    /* width: 100px; */
+  }
+
+  nav li {
+    list-style: none;
   }
   
   nav a {
+    /*display: inline-block;*/
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
   }
   
   /* Basic CSS for the form elements */
@@ -63,7 +76,7 @@ nav {
   input[type="text"],
   input[type="number"],
   select {
-    width: 400px;
+    width: 100px; 
     padding: 5px;
   }
   
